@@ -9,6 +9,23 @@ const config:Config = {
     extend: {
       backgroundImage: {
         'background': "url('src/assets/background.png')"
+      },
+      fontSize: {
+        '3xl': ['40px', '44px'],
+        '6xl': ['64px', '70.4px'],
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': {
+            transform: 'translateY(0)'
+          },
+          '50%': {
+            transform: 'translateY(-5%)'
+          },
+        }
+      },
+      animation: {
+        float: 'float 2s ease-in-out infinite'
       }
     },
     container: {
