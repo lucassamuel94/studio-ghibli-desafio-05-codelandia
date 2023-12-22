@@ -1,7 +1,13 @@
+import Content from "./components/content"
+import Header from "./components/header"
+
 export default function App() {
   return (
-    <main>
-      <h1>Studio Ghibli</h1>
+    <main className="bg-background bg-cover bg-center min-h-screen">
+      <div className="container">
+        <Header />
+        <Content />
+      </div>
     </main>
   )
 }
