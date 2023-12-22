@@ -8,7 +8,7 @@ const config:Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'background': "url('src/assets/background.png')"
+        'background': "url('/background.png')"
       },
       fontSize: {
         '3xl': ['40px', '44px'],
